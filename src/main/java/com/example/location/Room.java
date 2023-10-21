@@ -25,4 +25,11 @@ public class Room {
     public int getId(){
         return id;
     }
+    public String getDevices(){
+        String devices ="";
+        for(Device device: deviceList){
+            devices += device.getName() +", ";
+        }
+        return devices;
+    }
 }

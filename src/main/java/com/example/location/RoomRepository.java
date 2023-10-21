@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 @Repository
+//
+//Noch keine Funktionalität
+//
 public class RoomRepository {
     private final List<Room> roomList = new ArrayList<>();
 
